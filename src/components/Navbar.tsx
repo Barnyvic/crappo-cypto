@@ -1,6 +1,6 @@
 import React , { useState }from 'react'
 import Navlogo from "../images/logo.svg"
-import { GrClose } from "react-icons/gr";
+import { MdClose } from "react-icons/md";
 import { FiMenu } from "react-icons/fi";
 
 const Navbar = () => {
@@ -29,7 +29,7 @@ const Navbar = () => {
                 </div>
             </div>
                 <div className="nav-icon" onClick={handleClick}>
-                   {click ? <GrClose   className="menu" /> : <FiMenu   className="menu" />}
+                   {click ? <MdClose   className="menu" /> : <FiMenu   className="menu" />}
                 </div>
                 {click && (
                     <div className="navbar-smMenu">

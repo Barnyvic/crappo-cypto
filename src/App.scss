@@ -1,5 +1,8 @@
 a{
     text-decoration: none;
+    @media (max-width:450px){
+        font-size: 0.9rem;
+    }
 }
 
 ul{
