@@ -1,0 +1,54 @@
+.Hero-Maincontainer{
+    background: #0D0D2B;
+    .Hero-Container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 3rem 0;
+        .hero-content-Container{
+            .blackfriday{
+                background: rgba(255, 255, 255, 0.1);
+                border-radius: 32px;
+                color: #fff;
+                width: 57%;
+                display: flex;
+                align-items: center;
+                justify-content: start;
+                padding:0.2rem 0.1rem;
+                margin-bottom: 1.3rem;
+                .save{
+                    color: #0D0D2B;
+                    background: #fff;
+                    text-transform: uppercase;
+                    padding: 0.2rem 1rem; 
+                    border-radius: 32px;
+                    font-size: 1rem;
+                    font-weight: 500;
+                    line-height: 1.5rem;
+                    margin-right: 1rem;
+                }
+                .black{
+                    font-size: 1rem;
+                    line-height: 1.6rem;
+                }
+            }
+            .content{
+                color: #fff;
+                h1{
+                    font-weight: 700;
+                    font-size: 4rem;
+                    line-height: 4.74rem;
+                    margin-bottom: 1.3rem;
+                }
+                p{
+                    font-weight: 400;
+                    font-size: 1rem;
+                    line-height: 1.6rem;
+                    color: #E0E0E0;
+                    letter-spacing: 0.01em;
+                    width: 40ch;
+                }
+            }
+        }
+    }
+}

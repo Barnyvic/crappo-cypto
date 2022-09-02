@@ -3,13 +3,12 @@ import Navlogo from "../images/logo.svg"
 import { MdClose } from "react-icons/md";
 import { FiMenu } from "react-icons/fi";
 
-const Navbar = () => {
+function Navbar () {
     const [click, setClick] = useState(false);
     const handleClick = () => setClick(!click);
-
   return (
     <nav>
-        <div className='Navbar-container'>
+        <div className='Navbar-container container'>
             <div className='Navbar-brand'>
                 <a href='/' className='Navbar-brand'>
                     <img src={Navlogo} alt='Logo' />
@@ -24,7 +23,7 @@ const Navbar = () => {
                 </ul>
                 <div className="login">
                     <a href="/">Login</a>
-                     <div className='border'/> 
+                     <div className='border-login'/> 
                     <a href="/" className='register'>register</a>
                 </div>
             </div>
@@ -41,7 +40,7 @@ const Navbar = () => {
                         </ul>
                         <div className="login">
                             <a href="/">Login</a>
-                            <div className='border'/> 
+                            <div className='border-login'/> 
                             <a href="/" className='register'>register</a>
                         </div>
                     </div>
