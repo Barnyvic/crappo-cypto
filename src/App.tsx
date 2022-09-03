@@ -1,6 +1,7 @@
 import React from 'react';
 import Herosection from './components/Herosection';
 import HowmuchEarn from './components/HowmuchEarn';
+import TradeCrappo from './components/TradeCrappo';
 import Whycrappo from './components/Whycrappo';
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Herosection/>
       <Whycrappo/>
       <HowmuchEarn/>
+      <TradeCrappo/>
     </div>
   );
 }
