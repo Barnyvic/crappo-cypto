@@ -3,6 +3,8 @@ nav{
     color: #fff;
     padding: 0.5rem 2rem;
     z-index: 3;
+    position: fixed;
+    width: 100%;
     left: 0;
     top: 0;
     @media (max-width:750px){

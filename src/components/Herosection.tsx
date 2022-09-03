@@ -20,7 +20,7 @@ function Herosection() {
             <div className="blackfriday">
               <span className="save"  data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">75% Save</span> <span className="black">For the Black Friday weekend</span>
             </div>
-            <div className="content">
+            <div className="content p-2">
               <h1 data-aos="fade-up" data-aos-duration="3000">
                 Fastest & secure platform to invest in crypto
               </h1>
@@ -30,7 +30,7 @@ function Herosection() {
               </div>
             </div>
           </div>
-          <div className="hero-img-container p-2" data-aos="zoom-in" data-aos-duration="3000">
+          <div className="hero-img-container p-3" data-aos="zoom-in" data-aos-duration="3000">
             <img src={heroBgimg} className="img-fluid" alt="Bitcionimage" />
             <img src={heroRibbon1} className="img-fluid ribbon1" alt="Black-line" />
             <img src={heroRibbon2} className="img-fluid ribbon2" alt="Black-line" />

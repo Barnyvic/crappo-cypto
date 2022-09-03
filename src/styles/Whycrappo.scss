@@ -1,0 +1,85 @@
+.Whycrappo-Maincontainer{
+    background: #0D0D2B;
+    .content1{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+        @media (max-width:1000px){
+            flex-direction: column;
+            align-items: start;
+        }
+        .contact-item{
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            gap: 1rem;
+            @media (max-width:1000px){
+                gap: 0.7rem;
+            }
+            div{
+                h2{
+                    color: #ffffff;
+                    font-weight: 700;
+                    font-size: 2.5rem;
+                    line-height: 3.75rem;
+                    @media (max-width:1000px){
+                        font-size: 2rem;
+                    }
+                }
+                p{
+                    font-size: 1rem;
+                    font-weight: 400;
+                    line-height: 1.2rem;
+                    color: #E0E0E0;
+                     @media (max-width:1000px){
+                        font-size: 0.8rem;
+                    }
+                }
+            }
+        }
+    }
+    .content2{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+        @media (max-width:1000px){
+            flex-direction: column-reverse;
+        }
+        .content2_contents{
+            h1{
+                font-weight: 700;
+                font-size: 2.5rem;
+                line-height: 3.75rem;
+                color:#ffffff;
+                margin-bottom: 1.4rem;
+                @media (max-width:600px) {
+                        font-size: 1.4rem;
+                    }
+                 @media (max-width:450px) {
+                        font-size: 1.2rem;
+                }
+            }
+            p{
+                font-size: 1rem;
+                font-weight: 400;
+                line-height: 1.4rem;
+                color: #E0E0E0;
+                margin-bottom: 2.3rem;
+            }
+            a{
+                border-radius: 32px;
+                background:#3671e9 ;
+                color: #ffffff;
+                font-size: 1.1rem;
+                padding: 1rem 1.5rem;
+                font-weight: 500;
+                line-height: 1.7rem;
+                @media (max-width: 450px) {
+                    padding: 0.6rem 1rem;
+                }
+            }
+        }
+    }
+}
