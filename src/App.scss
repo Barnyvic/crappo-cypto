@@ -16,3 +16,23 @@ h1{
 font-size: 1.2rem;
 }
 }
+
+.btnR{
+    background: #3671E9;
+    border-radius: 32px;
+    padding: 1rem 2rem;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 500;
+    line-height: 1.3rem;
+    @media (max-width:600px) {
+        font-size: 0.9rem;
+        padding: 0.7rem 1rem ;
+    }
+}
+
+.grow{
+    @media (min-width:1000px){
+        width: 17ch;
+    }
+}
