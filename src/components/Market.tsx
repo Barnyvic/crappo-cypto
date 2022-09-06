@@ -22,7 +22,7 @@ function Market() {
                     </div>
                 </div>
                 <div className="Statdiv py-5">
-                    <img data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="3000" className="img-fluid" src={statImg}  alt="Chat" />
+                    {/* <img data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="3000" className="img-fluid" src={statImg}  alt="Chat" /> */}
                     <div className="container stat">
                             <p className="h1 text-uppercase mb-3">Detailed Statistics</p>
                             <p className='statext mb-4'>View all mining related information in realtime, at any point at any location and decide which polls you want to mine in.</p>
