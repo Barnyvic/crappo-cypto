@@ -38,7 +38,7 @@ overflow: hidden;
  }
  .FooterContent2{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
     .copywrite{
             font-size: 16px;
@@ -51,7 +51,7 @@ overflow: hidden;
     }
     .socials{
         display: flex;
-        align-items: flex-start;
+        align-items: center;
         justify-content: space-between;
         gap: 1rem;
     }
