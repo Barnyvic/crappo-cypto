@@ -2,7 +2,7 @@ import React from 'react'
 
 function Newsletter() {
   return (
-    <section className='Newsletter-container'>
+    <section className='Newsletter-container' data-aos="zoom-out" data-aos-duration="3000">
         <div className="p-5 News-content">
             <div className="stratMining">
                 <p className="h2">Start mining now</p>

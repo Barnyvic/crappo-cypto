@@ -95,7 +95,7 @@ nav{
                     background: #0D0D2B;
                     z-index: 100;
                     .navbar-smMenu-list{
-                        text-align: center;
+                        margin-right: 3rem;
                         font-size: 1.5rem;
                         line-height: 2.6rem;
                         li{
@@ -111,31 +111,6 @@ nav{
                                 }
                             }
                         }
-                    }
-                    .login{
-                        margin-top: 1.5rem;
-                        display: flex;
-                        align-items: center;
-                        justify-content: center;
-                        gap: 1rem;
-                        a {
-                            color: #fff;
-                            text-transform: capitalize;
-                            font-size: 1.2rem;
-                            font-weight: 500;
-                            line-height: 1.75rem;
-                            @media (max-width : 280px) {
-                                    font-size: 0.9rem;
-                                }
-                            }
-                         .register {
-                            background: #3671E9;
-                            padding: 0.475rem 2rem;
-                            border-radius: 32px;
-                            @media (max-width : 280px){
-                                padding: 0.475rem 1rem;
-                            }
-                            }
                     }
                 }
         }

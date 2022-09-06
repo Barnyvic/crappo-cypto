@@ -32,17 +32,14 @@ function Navbar () {
                 </div>
                 {click && (
                     <div className="navbar-smMenu">
-                        <ul className='navbar-smMenu-list'>
-                            <li><a href="/">Products</a></li>
-                            <li><a href="/">Features</a></li>
-                            <li><a href="/">About</a></li>
-                            <li><a href="/">contact</a></li>
+                        <ul className='navbar-smMenu-list '>
+                            <li className="mb-4"><a href="/">Products</a></li>
+                            <li className="mb-4"><a href="/">Features</a></li>
+                            <li className="mb-4"><a href="/">About</a></li>
+                            <li className="mb-4"><a href="/">contact</a></li>
+                            <li className="mb-4"><a href="/">Login</a></li>
+                            <li className="mb-4"><a href="/">rigister</a></li>
                         </ul>
-                        <div className="login">
-                            <a href="/">Login</a>
-                            <div className='border-login'/> 
-                            <a href="/" className='register'>register</a>
-                        </div>
                     </div>
                 )}
         </div>
