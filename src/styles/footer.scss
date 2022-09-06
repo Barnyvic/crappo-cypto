@@ -2,4 +2,58 @@
 background: #0D0D2B;
 color: #fff;
 overflow: hidden;
+.footerContent{
+    display: flex;
+    align-items: flex-start;
+    justify-content:space-evenly;
+    gap: 2rem;
+    @media (max-width:1000px){
+        justify-content: flex-start;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+     @media (max-width:540px) {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .Fcontent3{
+      width: 25rem;
+      @media (max-width:600px) {
+        width: 20rem;
+        margin-left: 2rem;
+      }
+      @media (max-width:300px) {
+        width: 15rem;
+        font-size: 0.9rem !important;
+      }
+      .Payment{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        @media (max-width:300px){
+            width: 30%;
+        }
+      }
+    }
+ }
+ .FooterContent2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .copywrite{
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 28px;
+            letter-spacing: 0.01em;
+            @media (max-width:450px){
+                font-size: 0.7rem;
+            }
+    }
+    .socials{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1rem;
+    }
+ }
 }
