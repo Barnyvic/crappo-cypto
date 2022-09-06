@@ -50,13 +50,13 @@ function Footer() {
         </div>
         <div className="FooterContent2 p-1">
           <p className='copywrite'>&copy;{new Date().getFullYear()}. All rights reserved</p>
-          <div className="socials img-fluid">
+          {/* <div className="socials img-fluid">
             <img className="img-fluid" src={social1} alt="facebook" />
             <img className="img-fluid" src={social3} alt="instagram" />
             <img className="img-fluid" src={social4} alt="twitter" />
             <img className="img-fluid" src={social2} alt="youtube" />
             <img className="img-fluid" src={social5} alt="linkedin" />
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
