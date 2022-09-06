@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from './components/Footer';
 import Herosection from './components/Herosection';
 import HowmuchEarn from './components/HowmuchEarn';
 import Market from './components/Market';
@@ -12,6 +13,7 @@ function App() {
       <HowmuchEarn/>
       <TradeCrappo/>
       <Market/>
+      <Footer/>
     </div>
   );
 }

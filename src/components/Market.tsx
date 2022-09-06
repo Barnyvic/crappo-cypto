@@ -2,6 +2,7 @@ import React from 'react'
 import investImg from "../images/InvestImg.png"
 import statImg from "../images/Statistic.png"
 import TableImg from "../images/Table.png"
+import Newsletter from './Newsletter'
 
 function Market() {
   return (
@@ -40,6 +41,11 @@ function Market() {
                         </div>
                     </div>
                 </div>
+            </div>
+            <div className="newsletter p-2 pb-5">
+                 <div className="container">
+                <Newsletter/>
+             </div>
             </div>
         </section>
   )

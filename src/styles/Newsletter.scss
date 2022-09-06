@@ -1,0 +1,40 @@
+.Newsletter-container{
+background: #3671E9;
+border-radius: 16px;
+.News-content{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 3rem;
+    // background: #3671E9;
+    flex-direction: column;
+    @media (min-width: 950px) {
+        flex-direction: row;
+        align-items: center;
+    }
+    .stratMining{
+        .join{
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 28px;
+            letter-spacing: 0.01em;
+            @media (min-width: 950px) {
+            width: 20rem;
+            }
+        }
+    }
+    input {
+        border: none;
+        outline: none;
+        background: #3671E9;
+        width: 100%;
+        color: #fff;
+        font-size: 1.5rem;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+        &::placeholder{
+            color: #fff;
+            font-size: 1.2rem;
+        }
+    }
+ }
+}
