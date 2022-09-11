@@ -1,4 +1,4 @@
-import React,{ useState} from 'react'
+import React from 'react' 
 import BitconImg from '../images/bitcon2.png'
 import litecoinIMG from '../images/litecoin.png'
 import ethereumImg from '../images/ethereum.png'
@@ -6,10 +6,9 @@ import {BsChevronRight} from 'react-icons/bs'
 
 function TradeCrappo() {
 
-    const [click,setClick] =useState("")
-    const handleClick = () => setClick("Start Mining");
+    
 
-  return (
+return (
     <section className="Tradesection">
         <div className="container pb-5">
             <div className="TradeContents p-2">
@@ -21,7 +20,7 @@ function TradeCrappo() {
                                 <img src={items.image}  className='pt-5 pb-5' alt="CoinImage" />
                                 <p className="mb-2">{items.title} <span>{items.abr}</span></p>
                                 <p className="fs-5 mb-4 coincointent">{items.content}</p>
-                                <button onClick={handleClick}>{click?`startMining >`: <BsChevronRight className='coin-icon'/>}</button>
+                                <button> <BsChevronRight className='coin-icon'/></button>
                             </div>
                         ))
                     }</div>
@@ -29,7 +28,7 @@ function TradeCrappo() {
             </div>
         </div>
     </section>
-  )
+)
 }
 
 const data2 = [

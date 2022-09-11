@@ -21,7 +21,7 @@ function Whycrappo() {
             </div>
             <div className="content2 p-3">
                <div>
-                <img src={whyimg} data-aos="zoom-in" data-aos-duration="2000" className='img-fluid'alt="crptoImg" />
+                <img src={whyimg} data-aos="zoom-in" data-aos-duration="3000" className='img-fluid'alt="crptoImg" />
                </div>
                <div className="content2_contents" data-aos-duration="2000" data-aos="fade-up">
                 <h1>Why you should choose CRAPPO</h1>

@@ -11,7 +11,7 @@ function Market() {
                 <div className="container Market_container p-3">
                     <h1  className="text-center p-3">Market sentiments, portfolio, and run the infrastructure of your choice</h1>
                     <div className="investContent">
-                        <div  data-aos="fade-right" data-aos-offset="1000"data-aos-easing="ease-in-sine" className="investSmart">
+                        <div data-aos="zoom-out-up" data-aos-duration="3000" className="investSmart">
                             <p className="h1 text-uppercase mb-3">invest Smart</p>
                             <p className='info mb-4'>Get full statistic information about the behaviour of buyers and sellers will help you to make the decision.</p>
                             <button className="btnR">Learn More</button>

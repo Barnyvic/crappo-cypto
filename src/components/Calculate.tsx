@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Calculate = () => {
   return (
-    <div className="calculate" data-aos="zoom-in-up" data-aos-duration="2000">
+    <div className="calculate" data-aos="zoom-in-up" data-aos-duration="3000">
                <div className="Options">
                 <input type="text" placeholder='Enter your hash rate' />
                 <select>
