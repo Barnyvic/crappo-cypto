@@ -60,14 +60,26 @@
           border: 2px solid #2B076E33;
           padding: 1rem;
           border-radius: 50px;
+          background: #FFFFFF;
           color: #3671E9;
+          &:hover{
+            background: #3671E9;
+            color: #FFFFFF;
+            &::before {
+            content: "StartMining";
+            font-weight: 700;
+            }
+          }
           @media (min-width: 768px) {
             padding: 1.5rem;
           }
           .coin-icon{
-            font-size: 1rem;
+            font-size: 0.8rem;
+            background: #FFFFFF;
+            color: #3671E9;
+            border-radius: 50px;
             @media (min-width: 768px) {
-                font-size: 1.5rem;
+                font-size: 1.1rem;
               }
           }
         }

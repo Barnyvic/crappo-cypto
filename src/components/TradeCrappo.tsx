@@ -14,9 +14,9 @@ return (
             <div className="TradeContents p-2">
                 <h1 className="text-center pb-5">Trade securely and market the high growth cryptocurrencies.</h1>
                 <div className="Tradecontent2">
-                    <div className="coin" data-aos="zoom-in-down"  data-aos-easing="linear" data-aos-duration="1500">{
+                    <div className="coin" >{
                         data2.map((items)=>(
-                            <div className="p-4" key={items.id}>
+                            <div className="p-4" data-aos="zoom-in-down"  data-aos-easing="linear" data-aos-duration="3000" key={items.id}>
                                 <img src={items.image}  className='pt-5 pb-5' alt="CoinImage" />
                                 <p className="mb-2">{items.title} <span>{items.abr}</span></p>
                                 <p className="fs-5 mb-4 coincointent">{items.content}</p>
