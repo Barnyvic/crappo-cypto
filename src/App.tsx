@@ -5,6 +5,14 @@ import HowmuchEarn from './components/HowmuchEarn';
 import Market from './components/Market';
 import TradeCrappo from './components/TradeCrappo';
 import Whycrappo from './components/Whycrappo';
+import Aos from 'aos'
+import "aos/dist/aos.css";
+
+
+ Aos.init({
+  duration: 3000,
+  delay: 500,
+ });
 function App() {
   return (
     <div className="App">

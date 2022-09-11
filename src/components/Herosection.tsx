@@ -4,11 +4,7 @@ import heroBgimg from '../images/hero-img.png'
 import heroRibbon1 from "../images/hero-ribbon-1.png"
 import heroRibbon2 from "../images/hero-ribbon-2.png"
 import {BsFillArrowRightCircleFill} from "react-icons/bs"
-import Aos from 'aos'
-import "aos/dist/aos.css";
 
-
- Aos.init();
 
 function Herosection() {
   return (
