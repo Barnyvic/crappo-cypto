@@ -13,7 +13,7 @@ function Market() {
                     <div className="investContent">
                         <div data-aos="zoom-out-up" data-aos-duration="3000" className="investSmart">
                             <p className="h1 text-uppercase mb-3">invest Smart</p>
-                            <p className='info mb-4'>Get full statistic information about the behaviour of buyers and sellers will help you to make the decision.</p>
+                            <p className='info mb-4 lh-base'>Get full statistic information about the behaviour of buyers and sellers will help you to make the decision.</p>
                             <button className="btnR">Learn More</button>
                         </div>
                         <div data-aos="fade-up" data-aos-duration="3000" className="investIMg">
@@ -25,7 +25,7 @@ function Market() {
                     <img data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="3000" className="img-fluid" src={statImg}  alt="Chat" />
                     <div className="container stat">
                             <p className="h1 text-uppercase mb-3">Detailed Statistics</p>
-                            <p className='statext mb-4'>View all mining related information in realtime, at any point at any location and decide which polls you want to mine in.</p>
+                            <p className='statext mb-4 lh-base'>View all mining related information in realtime, at any point at any location and decide which polls you want to mine in.</p>
                             <button className="btnR">Learn More</button> 
                     </div>
                 </div>
@@ -33,7 +33,7 @@ function Market() {
                     <div className="investContent">
                         <div className="investSmart">
                             <p className="h1 text-uppercase mb-3 grow">Grow your profit and track your investments</p>
-                            <p className='info mb-4'>Use advanced analytical tools. Clear TradingView charts let you track current and historical profit investments.</p>
+                            <p className='info mb-4 lh-base'>Use advanced analytical tools. Clear TradingView charts let you track current and historical profit investments.</p>
                             <button className="btnR">Learn More</button>
                         </div>
                         <div data-aos="fade-up" data-aos-duration="3000" className="investIMg">
